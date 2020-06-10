@@ -6,7 +6,7 @@ import Navbar from './navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navbar dark/>
       <header className="App-header">
         <p>Content is in progress...</p>
         <img src={banana} className="App-logo" alt="logo" />
