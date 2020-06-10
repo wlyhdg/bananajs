@@ -1,15 +1,21 @@
 import React from 'react';
-import banana from '../static/Banana.svg'
+import BananaSVG from '../static/Banana.svg'
+import BananaLogo from '../static/Banana.png'
 import './App.css';
 import Navbar from './navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar dark/>
+      <Navbar 
+        title='Banana' 
+        subtitle='JS' 
+        logo={BananaLogo} 
+        dark
+      />
       <header className="App-header">
         <p>Content is in progress...</p>
-        <img src={banana} className="App-logo" alt="logo" />
+        <img src={BananaSVG} className="App-logo" alt="logo" />
       </header>
     </div>
   );

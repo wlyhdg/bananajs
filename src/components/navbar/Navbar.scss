@@ -1,3 +1,5 @@
+@import '../../styles/colors.scss';
+
 .navbar__header {
   width: 80%;
   margin: 0 auto;
@@ -9,3 +11,9 @@
 .navbar__logo {
   margin-right: 7px;
 }
+
+.navdark {
+  background-color: $black;
+  color: $white;
+}
+
