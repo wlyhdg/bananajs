@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../static/logo.svg'
+import banana from '../static/Banana.svg'
 import './App.css';
 import Navbar from './navbar/Navbar';
 
@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <Navbar />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <p>Content is in progress...</p>
+        <img src={banana} className="App-logo" alt="logo" />
       </header>
     </div>
   );
