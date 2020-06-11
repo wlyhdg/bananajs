@@ -3,6 +3,7 @@ import BananaSVG from '../static/Banana.svg'
 import BananaLogo from '../static/Banana.png'
 import './App.css';
 import Navbar from './navbar/Navbar';
+import Deck from './Deck/Deck';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <p>Content is in progress...</p>
         <img src={BananaSVG} className="App-logo" alt="logo" />
       </header>
+      <Deck />
     </div>
   );
 }
