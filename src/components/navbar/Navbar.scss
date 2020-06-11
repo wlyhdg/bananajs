@@ -12,8 +12,11 @@
   margin-right: 7px;
 }
 
-.navdark {
+.nav__dark {
   background-color: $black;
   color: $white;
 }
 
+.fixed {
+  position: fixed;
+}

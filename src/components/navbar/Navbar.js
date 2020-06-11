@@ -2,8 +2,14 @@ import React from 'react'
 import './Navbar.scss'
 
 export default function Navbar(props) {
-  const darkModeClass = props.dark ? 'navdark' : ''
-  const navBarClassName = `navbar ${darkModeClass}`
+  let additionalClasses = [];
+  if (props.fixed) {
+    additionalClasses.push('fixed')
+  }
+  if(props.dark) {
+    additionalClasses.push('nav__dark')
+  }
+  const navBarClassName = `navbar ${additionalClasses.join(' ')}`
 
   return (
     <nav className={navBarClassName}>
