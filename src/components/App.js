@@ -1,7 +1,7 @@
 import React from 'react';
 import BananaSVG from '../static/Banana.svg'
 import BananaLogo from '../static/Banana.png'
-import './App.css';
+import './App.scss';
 import Navbar from './navbar/Navbar';
 import Deck from './Deck/Deck';
 
