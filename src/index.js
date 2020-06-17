@@ -9,7 +9,7 @@ import Box from '../src/components/Three/Three'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Canvas>
+    <Canvas id="canvas">
       <ambientLight />
       <pointLight position={[10, 10, 10]} />
       <Box position={[-1.2, 0, 0]} />

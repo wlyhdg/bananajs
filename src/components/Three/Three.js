@@ -2,6 +2,8 @@ import ReactDOM from 'react-dom';
 import React, {useRef, useState} from 'react';
 import { useFrame } from 'react-three-fiber';
 
+import './Three.scss'
+
 export default function Box(props) {
   // this reference will give us direct access to the mesh
   const mesh = useRef();
