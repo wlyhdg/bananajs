@@ -1,0 +1,11 @@
+.lens {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: gray;
+  transition: 2s all ease;
+}
+
+.zoom {
+  transform: scale(3);
+}
