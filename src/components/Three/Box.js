@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import { useFrame, extend, useThree } from 'react-three-fiber';
+import { extend, useThree } from 'react-three-fiber';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 
 import './Box.scss'
@@ -29,7 +29,7 @@ export default function Box(props) {
         onPointerOut={(e) => setHover(false)}
       >
         <boxBufferGeometry attach="geometry" args={[1,1,1]} />
-        <meshStandardMaterial attach="material" color={hovered ? 'hotpink' : 'orange'} />
+        <meshStandardMaterial attach="material" color={hovered ? 'orange' : '#835C3B'} />
       </mesh>
       <orbitControls args={[camera, domElement]} />
     </>

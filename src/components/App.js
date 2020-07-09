@@ -4,6 +4,7 @@ import BananaLogo from '../static/Banana.png'
 import './App.scss';
 import Navbar from './navbar/Navbar';
 import Deck from './Deck/Deck';
+import Lens from './Lens/Lens'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <p>Content is in progress...</p>
         <img src={BananaSVG} className="App-logo" alt="logo" />
       </header>
+      <Lens />
       <Deck />
     </div>
   );
